@@ -1,0 +1,9 @@
+.form-login li img{
+    filter: invert();
+}
+
+.form-login .acc-create p{
+    position: relative;
+    transform: translate(0, 300%);
+    border-bottom-color: rgb(110, 19, 196);
+}

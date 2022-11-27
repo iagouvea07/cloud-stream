@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="/css/client/login.css">
+{{>error}}
+<form action="/client/account-activation" method="post" class="form-login">
+<ul>
+    <li><input type="password" name="tempPass" autocomplete="off" required placeholder="Current Password"></li>
+    <li><input type="password" name="password" autocomplete="off" required placeholder="New Password"></li>
+    <li><input type="password" name="password2" autocomplete="off" required placeholder="Retype New Password"></li>
+    <li><button>Submit</button></li>
+</ul>
+</form>

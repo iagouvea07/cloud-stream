@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/css/client/login.css">
+{{>error}}
+<form action="/client/" method="post" class="form-login">
+<ul>
+    <li><img src="/img/user.png" alt="" width="40px"><input type="text" name="user" autocomplete="off" required></li>
+    <li><img src="/img/pass.png" alt="" width="40px"><input type="password" name="password" autocomplete="off" required></li>
+    <li><button>Login</button></li>
+</ul>
+<li class="acc-create">
+    <p style="font-size: 12px">Don't have an account? <a href="http://10.147.20.45:8082/client/register">Click here</a></p>
+</li>
+</form>
